@@ -1,0 +1,19 @@
+{
+  "name": "phonebook-api",
+  "version": "1.0.0",
+  "description": "Phonebook Restful API with Node.js, Express, and PostgreSQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg-promise": "^10.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

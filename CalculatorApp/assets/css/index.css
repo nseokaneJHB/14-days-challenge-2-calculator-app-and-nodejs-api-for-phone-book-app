@@ -1,0 +1,30 @@
+* {
+  transition: all 0.2s ease-in;
+  box-sizing: content-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(at top left, rgb(146, 43, 225) 0%, rgb(43, 9, 107) 100%);
+  background-repeat: no-repeat;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.calculator-form {
+  background-color: rgba(0, 0, 0, 0.311);
+}
+
+.calculator-buttons {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". . . ." ". . . submit" ". . . submit" ". . . submit" ". . . submit";
+  display: grid;
+  gap: 10px;
+}
+
+.submit-button {
+  grid-area: submit;
+}/*# sourceMappingURL=index.css.map */
